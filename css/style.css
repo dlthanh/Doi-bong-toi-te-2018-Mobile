@@ -77,16 +77,27 @@
     color: #104c2f;
     text-decoration: none;
 }
-.dbtm-main a::before {
-    content: '';
-    display: inline-block;
-    height: 25px;
-    width: 100px;
-    background: url('../images/arrow.png') no-repeat center;
-    background-size: contain;
-    vertical-align: middle;
-    margin-top: -10px;
-    margin-right: 5px;
+/*.dbtm-main a::before {*/
+    /*content: '';*/
+    /*display: inline-block;*/
+    /*height: 25px;*/
+    /*width: 100px;*/
+    /*background: url('../images/arrow.png') no-repeat center;*/
+    /*background-size: contain;*/
+    /*vertical-align: middle;*/
+    /*margin-top: -10px;*/
+    /*margin-right: 5px;*/
+/*}*/
+.dbtm-readmore img {
+    margin-bottom: 5px;
+}
+.dbtm-readmore a {
+    line-height: 24px;
+    color: #333;
+}
+.dbtm-readmore a:hover,
+.dbtm-readmore a:focus {
+    text-decoration: underline;
 }
 .fancybox-close-small svg {
     display: none;
